@@ -48,6 +48,9 @@
     </property>
    </widget>
    <widget class="QFrame" name="frame">
+    <property name="enabled">
+     <bool>true</bool>
+    </property>
     <property name="geometry">
      <rect>
       <x>0</x>
@@ -63,9 +66,12 @@
      <enum>QFrame::Raised</enum>
     </property>
     <widget class="QLabel" name="label">
+     <property name="enabled">
+      <bool>true</bool>
+     </property>
      <property name="geometry">
       <rect>
-       <x>180</x>
+       <x>170</x>
        <y>40</y>
        <width>171</width>
        <height>41</height>
@@ -73,6 +79,7 @@
      </property>
      <property name="font">
       <font>
+       <family>Arial</family>
        <pointsize>13</pointsize>
        <stylestrategy>PreferDefault</stylestrategy>
       </font>
@@ -279,7 +286,9 @@ color: rgb(81, 81, 81);</string>
      </property>
      <property name="styleSheet">
       <string notr="true">background-color: rgb(85, 170, 255);
-color: rgb(255, 255, 255);</string>
+color: rgb(255, 255, 255);
+border-radius: 8px;
+padding: 5px;</string>
      </property>
      <property name="text">
       <string/>
@@ -317,8 +326,6 @@ color: rgb(255, 255, 255);</string>
     <zorder>label_3</zorder>
     <zorder>frame_2</zorder>
    </widget>
-   <zorder>frame</zorder>
-   <zorder>label_4</zorder>
   </widget>
   <widget class="QMenuBar" name="menubar">
    <property name="geometry">
