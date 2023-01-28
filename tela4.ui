@@ -80,7 +80,7 @@
      </font>
     </property>
     <property name="styleSheet">
-     <string notr="true">color: rgb(120, 120, 120);</string>
+     <string notr="true">color: rgb(255, 0, 0);</string>
     </property>
     <property name="text">
      <string>*confirme o nome</string>
@@ -97,7 +97,9 @@
     </property>
     <property name="styleSheet">
      <string notr="true">color: rgb(255, 255, 255);
-background-color: rgb(85, 170, 255);</string>
+background-color: rgb(85, 170, 255);
+border-radius: 10px;
+padding: 5px;</string>
     </property>
     <property name="text">
      <string> Concluir</string>
@@ -204,7 +206,7 @@ color: rgb(81, 81, 81);</string>
      </font>
     </property>
     <property name="styleSheet">
-     <string notr="true">color: rgb(120, 120, 120);</string>
+     <string notr="true">color: rgb(255, 0, 0);</string>
     </property>
     <property name="text">
      <string>*nova data</string>
@@ -225,7 +227,7 @@ color: rgb(81, 81, 81);</string>
      </font>
     </property>
     <property name="styleSheet">
-     <string notr="true">color: rgb(120, 120, 120);</string>
+     <string notr="true">color: rgb(255, 0, 0);</string>
     </property>
     <property name="text">
      <string>*novo débito</string>

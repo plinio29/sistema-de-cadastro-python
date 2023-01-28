@@ -42,7 +42,9 @@
     </property>
     <property name="styleSheet">
      <string notr="true">color: rgb(255, 255, 255);
-background-color: rgb(255, 99, 109);</string>
+background-color: rgb(255, 99, 109);
+border-radius: 10px;
+padding: 5px;</string>
     </property>
     <property name="text">
      <string> Excluir</string>
@@ -85,7 +87,7 @@ background-color: rgb(255, 99, 109);</string>
      </font>
     </property>
     <property name="styleSheet">
-     <string notr="true">color: rgb(120, 120, 120);</string>
+     <string notr="true">color: rgb(255, 0, 0);</string>
     </property>
     <property name="text">
      <string>*confirme o nome</string>

@@ -118,7 +118,9 @@
       </property>
       <property name="styleSheet">
        <string notr="true">background-color: rgb(85, 170, 255);
-color: rgb(255, 255, 255);</string>
+color: rgb(255, 255, 255);
+border-radius: 10px;
+padding: 5px;</string>
       </property>
       <property name="text">
        <string> Editar</string>
@@ -151,7 +153,9 @@ color: rgb(255, 255, 255);</string>
       <property name="styleSheet">
        <string notr="true">border-bottom-color: rgb(207, 207, 207);
 color: rgb(255, 255, 255);
-background-color: rgb(85, 170, 255);</string>
+background-color: rgb(85, 170, 255);
+border-radius: 10px;
+padding: 5px;</string>
       </property>
       <property name="text">
        <string> Excluir</string>
@@ -172,7 +176,9 @@ background-color: rgb(85, 170, 255);</string>
       </property>
       <property name="styleSheet">
        <string notr="true">background-color: rgb(85, 170, 255);
-color: rgb(255, 255, 255);</string>
+color: rgb(255, 255, 255);
+border-radius: 10px;
+padding: 5px;</string>
       </property>
       <property name="text">
        <string/>
