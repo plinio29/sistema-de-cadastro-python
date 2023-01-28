@@ -41,13 +41,13 @@ def funcao_secundaria():
         QMessageBox.about(tela2,'Resultado', 'NOME: ' + nome + '\n' + 'DATA: ' + dat1dia +'/'+ dat1mes +'/'+ dat1ano + '\n' + 'DÉBITO: ' + debitoreal +','+ debitocentavos + '\n' 'CADASTRO CONCLUÍDO!')
 
         #Abrindo Arquivo e Salvando em um Documento txt.
-        arquivo = open("C:\\Users\\Admin\\Documents\\Projetos Github\\Sistema cadastre Python\\duastelasteste.txt", "a")
+        arquivo = open("C:\\Users\\Admin\\Documents\\Projetos Github\\sistema-de-cadastro-python\\duastelasteste.txt", "a")
 
         arquivo.write('NOME:' + nome + '  ' + 'DATA: ' + dat1dia +'/'+ dat1mes +'/'+ dat1ano + '  ' + '\n\n')
         arquivo.close()
         
         #Abrindo e salvando um segundo arquivo
-        arquivo2 = open("C:\\Users\\Admin\\Documents\\Projetos Github\\Sistema cadastre Python\\duastelasteste2.txt", "a")
+        arquivo2 = open("C:\\Users\\Admin\\Documents\\Projetos Github\\sistema-de-cadastro-python\\duastelasteste2.txt", "a")
         arquivo2.write('NOME:' + nome + '  ' + 'DÉBITO: R$' + ' ' + debitoreal + ',' + debitocentavos + '\n\n')
         arquivo2.close()
     
@@ -61,7 +61,7 @@ def funcao_secundaria2():
     else:
         pnome = (str(pnome))
         #Abrindo Arquivo e lendo em um Documento txt.
-        arquivo = open("C:\\Users\\Admin\\Documents\\Projetos Github\\Sistema cadastre Python\\duastelasteste.txt", "r")
+        arquivo = open("C:\\Users\\Admin\\Documents\\Projetos Github\\sistema-de-cadastro-python\\duastelasteste.txt", "r")
         contador = 0
         for linha in arquivo:
             linha = linha.rstrip()
@@ -72,7 +72,7 @@ def funcao_secundaria2():
         
                 #brindo frame depois de pesquisar
                 tela3.frame_2.show()
-                arquivo2 = open("C:\\Users\\Admin\\Documents\\Projetos Github\\Sistema cadastre Python\\duastelasteste2.txt", "r")
+                arquivo2 = open("C:\\Users\\Admin\\Documents\\Projetos Github\\sistema-de-cadastro-python\\duastelasteste2.txt", "r")
                 contador = 0
                 for linha in arquivo2:
                     linha = linha.rstrip()
@@ -112,7 +112,7 @@ def funcao_concluir_edicao():
         print('Erro!')
         #QMessageBox.about(tela4,'Resultado', 'ERRO!')
     else:
-        editarquivo = open('C:\\Users\\Admin\\Documents\\Projetos Github\\Sistema cadastre Python\\duastelasteste2.txt', 'r')
+        editarquivo = open('C:\\Users\\Admin\\Documents\\Projetos Github\\sistema-de-cadastro-python\\duastelasteste2.txt', 'r')
 
         contador = 0
         for linha in editarquivo:
@@ -154,7 +154,7 @@ def funcao_concluir_edicao2():
         print('Erro!')
         QMessageBox.about(tela4,'Resultado', 'ERRO!')
     else:
-        editarquivo = open('C:\\Users\\Admin\\Documents\\Projetos Github\\Sistema cadastre Python\\duastelasteste.txt', 'r')
+        editarquivo = open('C:\\Users\\Admin\\Documents\\Projetos Github\\sistema-de-cadastro-python\\duastelasteste.txt', 'r')
         
         tela4.novonome.setText('')
         tela4.datadia.setText('')
@@ -209,7 +209,7 @@ def funcao_excluir2():
 
     else:
         print('Acerto!')
-        excluirarquivo = open('C:\\Users\\Admin\\Documents\\Projetos Github\\Sistema cadastre Python\\duastelasteste2.txt', 'r')
+        excluirarquivo = open('C:\\Users\\Admin\\Documents\\Projetos Github\\sistema-de-cadastro-python\\duastelasteste2.txt', 'r')
 
         contador = 0
         for linha in excluirarquivo:
@@ -246,7 +246,7 @@ def funcao_excluir3():
         QMessageBox.about(tela5,'Resultado', 'ERRO!')
 
     else:
-        excluirarquivo = open('C:\\Users\\Admin\\Documents\\Projetos Github\\Sistema cadastre Python\\duastelasteste.txt', 'r')
+        excluirarquivo = open('C:\\Users\\Admin\\Documents\\Projetos Github\\sistema-de-cadastro-python\\duastelasteste.txt', 'r')
 
         tela5.confirmanome.setText('')
         
